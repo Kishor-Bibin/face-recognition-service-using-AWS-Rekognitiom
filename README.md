@@ -48,7 +48,7 @@ This setup automates face recognition, storing faces in a way that allows for ea
 ### 3. Set Up a Lambda Function
    - Configure a Lambda function to process images uploaded to S3 and trigger the face indexing process in Rekognition.
    - Assign the Lambda function a role with permissions for Rekognition, S3, and DynamoDB.
-   - [function Code Here!!](https://github.com/Kishor-Bibin/face-recognition-service-using-AWS-Rekognitiom/blob/main/lamdafunction.py)
+   - [Function Code Here!!](https://github.com/Kishor-Bibin/face-recognition-service-using-AWS-Rekognitiom/blob/main/lamdafunction.py)
 
 
 ### 4. Set Up an S3 Trigger
