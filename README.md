@@ -11,6 +11,10 @@ Welcome! This README outlines the steps I took to set up a face recognition serv
 4. [Testing and Results](#testing-and-results)
 5. [Considerations and Tips](#considerations-and-tips)
 
+
+## Diagram 
+![](https://github.com/Kishor-Bibin/face-recognition-service-using-AWS-Rekognitiom/blob/507b52e85956305d4fc0e74b5b67d38925b7569b/Diagram/Architectural%20Diagram.png)
+
 ## Overview
 
 This service uses **AWS Rekognition** to analyze and recognize faces within a set of images. The process includes:
@@ -44,7 +48,7 @@ This setup automates face recognition, storing faces in a way that allows for ea
 ### 3. Set Up a Lambda Function
    - Configure a Lambda function to process images uploaded to S3 and trigger the face indexing process in Rekognition.
    - Assign the Lambda function a role with permissions for Rekognition, S3, and DynamoDB.
-
+[Function Code Here !!](url)
 
 
 ### 4. Set Up an S3 Trigger
